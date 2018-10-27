@@ -1,2 +1,2 @@
 # ClassicPress-Theme
-The ClassicPress.net theme, based on Susty. 
+The ClassicPress.net themes

@@ -17,6 +17,7 @@ function cp_susty_enqueue_parent_theme_styles() {
 		[],
 		cp_susty_get_asset_version()
 	);
+	wp_enqueue_script( 'menu', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'cp_susty_enqueue_parent_theme_styles' );
 

@@ -593,7 +593,7 @@ a.button-yellow:hover, a.button-yellow:focus {
 .feature-check h4:before {
   display: inline-block;
   content: ' ';
-  background-image: url("../images/check-circle.svg");
+  background-image: url("/images/check-circle.svg");
   background-size: 1.75rem 1.75rem;
   height: 1.75rem;
   width: 1.75rem;

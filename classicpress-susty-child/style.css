@@ -397,7 +397,9 @@ a.button-yellow {
 }
 
 a.button-yellow:hover, a.button-yellow:focus {
-  background: #f89c1b
+  background: #f89c1b;
+  color: #fff;
+  text-shadow: (1px 1px 1px rgba(50,50,50, 0.7), -1px -1px 1px rgba(50,50,50,0.7));
 }
 
 .home-hero-container {

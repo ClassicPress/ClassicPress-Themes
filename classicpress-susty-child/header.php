@@ -25,10 +25,14 @@
 <div id="page">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'susty' ); ?></a>
 
+	<?php if ( is_front_page() ) { ?>
+		<section class="home-hero-container">
+	<?php } ?>
+
 	<header id="masthead">
 		<div id="inner-header">
-			<span class="logo">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"> <img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/icon-white.svg' ); ?>" width="81" height="81"> <span class="screen-reader-text"><?php esc_html_e( 'Home', 'susty' ); ?></span></a>
+			<span class="logo" role="banner">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"> <img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/icon-white.svg' ); ?>" width="81" height="81" alt="ClassicPress logo"> <span class="screen-reader-text"><?php esc_html_e( 'Home', 'susty' ); ?></span></a>
 			</span>
 			
 			<button id="menu-toggle" class="menu-toggle" type="button" aria-haspopup="true" aria-controls="site-navigation" aria-expanded="false" tabindex="0">
@@ -53,8 +57,8 @@
 				?>
 			</nav><!-- #site-navigation -->
 			
-			<a href="<?php echo home_url( '/download/' ); ?>" class="get-started">Get Started</a>
+			<a href="<?php echo home_url( '/download/' ); ?>" class="button get-started"><?php esc_html_e( 'Get Started', 'susty' ); ?></a>
 		</div>
 	</header>
 
-	<div id="content">
+	<div id="content" role="main">

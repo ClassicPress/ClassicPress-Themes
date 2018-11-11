@@ -21,10 +21,11 @@
 		if ( 'post' === get_post_type() ) :
 			?>
 			<div class="entry-meta">
-				<?php
-				susty_wp_posted_on();
-				susty_wp_posted_by();
-				?>
+				<span class="author-avatar"><?php echo get_avatar( get_the_author_meta( 'ID' ), '50' ); ?></span>
+				<span class="post-meta">
+					<?php susty_wp_posted_on(); ?>
+					<?php susty_wp_posted_by(); ?>
+				</span>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header>

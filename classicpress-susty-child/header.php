@@ -47,6 +47,16 @@
 				</span>
 				<span id="menu-toggle-text" class="screen-reader-text"><?php esc_html_e( 'Menu', 'susty' ); ?></span>
 			</button>
+			
+			<button id="menu-toggle-close" class="menu-toggle close" type="button" aria-haspopup="true"aria-controls="site-navigation" aria-expanded="true" tabindex="0">
+				<span class="menu-toggle-svg-wrapper" id="menu-toggle-svg-wrapper">
+					<svg class="icon icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100">
+						<svg viewbox="0 0 40 40">
+							<path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />
+						</svg>
+					</svg>
+				</span>
+			</button>
 
 			<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Main menu">
 				<?php

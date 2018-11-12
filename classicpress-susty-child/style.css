@@ -365,6 +365,9 @@ table.cp-file-list .cp-file-size {
 		display: inline-block;
 		vertical-align: middle;
 	}
+	.menu-item-has-children > a:hover:after {
+		border-top: 6px solid #040402;
+	}
 	input[type="search"] {
 		max-width: 100%;
 		padding: 1.5em;

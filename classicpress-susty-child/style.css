@@ -419,6 +419,10 @@ table.cp-file-list .cp-file-size {
 .social-icon {
 	margin-left: 1em;
 }
+.social-icon > a img {
+	height: 32px;
+	width: auto;
+}
 .home-hero {
 	display: flex;
 	flex-wrap: wrap;

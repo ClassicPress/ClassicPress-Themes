@@ -10,16 +10,16 @@ get_header();
 <!--- opening <section> tag in header.php template --->
 	<div class="social">
 		<span class="social-icon">
-			<a href="https://www.facebook.com/GetClassicPress/"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/flogo-HexRBG-Wht-58.svg' ); ?>" alt="Facebook" width="32" height="32"></a>
-		</span>	
-		<span class="social-icon">
-			<a href="https://github.com/ClassicPress"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/GitHub-Mark-Light-32px.png' ); ?>" alt="Github"></a>
+			<a href="https://github.com/ClassicPress"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/social/github.svg' ); ?>" alt="Github" height="32px"></a>
 		</span>
 		<span class="social-icon">
-			<a href="https://twitter.com/GetClassicPress"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/Twitter_Social_Icon_Rounded_Square_White.svg' ); ?>" alt="Twitter" width="32" height="32"></a>
-		</span>	
+			<a href="https://www.facebook.com/GetClassicPress/"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/social/facebook.svg' ); ?>" alt="Facebook" height="32px"></a>
+		</span>
 		<span class="social-icon">
-			<a href="https://www.linkedin.com/company/classicpress/"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/LinkedIn-32px.png' ); ?>" alt="LinkedIn"></a>
+			<a href="https://twitter.com/GetClassicPress"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/social/twitter.svg' ); ?>" alt="Twitter" height="32px"></a>
+		</span>
+		<span class="social-icon">
+			<a href="https://www.linkedin.com/company/classicpress/"><img src="<?php echo home_url( '/wp-content/themes/classicpress-susty-child/images/social/linkedin.svg' ); ?>" alt="LinkedIn" height="32px"></a>
 		</span>
 	</div>
 	<div class="home-hero">
